@@ -1,0 +1,434 @@
+{
+  "category": "INTERNET_FOLKLORE",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/slenderman",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "slenderman",
+    "name": "Slenderman",
+    "aliases": [
+      {
+        "name": "Slender Man",
+        "type": "alternate_spelling"
+      },
+      {
+        "name": "The Slender Man",
+        "type": "formal"
+      },
+      {
+        "name": "Slendy",
+        "type": "informal"
+      }
+    ],
+    "category": "INTERNET_FOLKLORE",
+    "subcategory": "Entity / Creepypasta",
+    "tags": [
+      "internet-folklore",
+      "creepypasta",
+      "modern-mythology",
+      "fictional-creation",
+      "viral-phenomenon",
+      "documented-origin"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A fictional supernatural entity created in 2009 by Eric Knudsen for a Something Awful forum contest. Tall, thin, featureless face, black suit, tentacle-like appendages. Evolved from collaborative fiction to belief in some individuals.",
+      "full": "Slenderman is a fictional supernatural entity created on June 10, 2009, by Eric Knudsen (username Victor Surge) for a Something Awful forum 'create paranormal images' contest. Depicted as an unnaturally tall, thin figure with a featureless white face, wearing a black suit, with tentacle-like appendages extending from its back. The character stalks, abducts, and traumatizes victims (especially children), causes 'Slender sickness' (paranoia, nightmares), and can teleport. Originally collaborative internet fiction (creepypasta), Slenderman went viral through web series like Marble Hornets, video games (Slender: The Eight Pages), and widespread sharing. The phenomenon took a tragic turn in 2014 when two 12-year-old girls in Wisconsin stabbed a classmate 19 times, claiming they did it to please Slenderman. This incident highlighted the potential for fiction-to-belief transformation. Slenderman represents modern mythology creation: a documented fictional entity that became embedded in cultural consciousness, with some individuals (especially youth) developing genuine belief. Related to other internet folklore like The Rake and Black-eyed Children."
+    },
+    "etymology": {
+      "origin": "Created by Eric Knudsen (Victor Surge) on June 10, 2009, on Something Awful forums.",
+      "meaning": "Named for thin ('slender') appearance and formal 'man' designation",
+      "first_use": "June 10, 2009"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "INTERNET_FOLKLORE",
+      "type": "Fictional Entity",
+      "subtype": "Creepypasta",
+      "variant": "Modern Mythology"
+    },
+    "related_phenomena": [
+      {
+        "id": "rake",
+        "name": "The Rake",
+        "relationship": "similar",
+        "description": "Another internet-created entity from creepypasta"
+      },
+      {
+        "id": "black-eyed-children",
+        "name": "Black-Eyed Children",
+        "relationship": "related",
+        "description": "Modern urban legend with similar viral spread"
+      },
+      {
+        "id": "internet-folklore",
+        "name": "Internet Folklore (general)",
+        "relationship": "category",
+        "description": "Broader category of digitally-native legends"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 2.4,
+        "max": 4.6,
+        "unit": "meters",
+        "note": "Unnaturally tall, often described as 8-15 feet",
+        "confidence": "fictional"
+      },
+      "features": [
+        {
+          "feature": "Featureless face",
+          "description": "Blank white face with no eyes, nose, or mouth",
+          "frequency": "always"
+        },
+        {
+          "feature": "Unnaturally thin build",
+          "description": "Extremely tall and thin, disproportionate limbs",
+          "frequency": "always"
+        },
+        {
+          "feature": "Black suit",
+          "description": "Wears a plain black suit with white shirt and tie",
+          "frequency": "always"
+        },
+        {
+          "feature": "Tentacle appendages",
+          "description": "Tentacle-like or branch-like appendages extending from back",
+          "frequency": "common"
+        },
+        {
+          "feature": "Impossibly long arms",
+          "description": "Arms that extend far beyond normal human proportions",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Impossibly tall, thin humanoid with blank face and dark formal attire. Defies normal human anatomy."
+    },
+    "abilities": [
+      {
+        "ability": "Teleportation",
+        "description": "Can appear and disappear instantly",
+        "frequency": "common",
+        "evidence_level": "fictional"
+      },
+      {
+        "ability": "Mind control/influence",
+        "description": "Compels victims to obey or influences thoughts",
+        "frequency": "common",
+        "evidence_level": "fictional"
+      },
+      {
+        "ability": "Slender sickness",
+        "description": "Causes paranoia, nightmares, nosebleeds, and psychological distress in victims",
+        "frequency": "common",
+        "evidence_level": "fictional"
+      },
+      {
+        "ability": "Stalking",
+        "description": "Follows and observes victims over extended periods",
+        "frequency": "always",
+        "evidence_level": "fictional"
+      },
+      {
+        "ability": "Abduction",
+        "description": "Abducts victims, especially children, with no trace",
+        "frequency": "common",
+        "evidence_level": "fictional"
+      },
+      {
+        "ability": "Camera/electronic distortion",
+        "description": "Presence causes static and distortion in recordings",
+        "frequency": "common",
+        "evidence_level": "fictional"
+      }
+    ],
+    "behavior": {
+      "activity_period": "any",
+      "disposition": "hostile",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "forests",
+        "wooded areas",
+        "near children",
+        "follows victims anywhere"
+      ],
+      "targets": "Primarily children, but also adults who investigate or become aware of him",
+      "patterns": [
+        "Stalks victims before acting",
+        "Causes psychological torment",
+        "Appears in background of photos",
+        "Leaves no physical trace"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Internet-native phenomenon with global spread via digital media. No geographic constraints as it is fictional.",
+      "continents": ["Global (internet)"],
+      "primary_regions": ["English-speaking internet", "Gaming communities", "Horror communities"]
+    },
+    "temporal": {
+      "creation": {
+        "date": "2009-06-10",
+        "creator": "Eric Knudsen (Victor Surge)",
+        "context": "Something Awful forum 'create paranormal images' contest"
+      },
+      "evolution": [
+        {
+          "period": "2009-2010",
+          "phase": "Collaborative fiction",
+          "description": "Other users contributed to Slenderman lore on forums"
+        },
+        {
+          "period": "2009-2014",
+          "phase": "Viral spread",
+          "description": "Marble Hornets web series, games, widespread sharing"
+        },
+        {
+          "period": "2012",
+          "phase": "Gaming phenomenon",
+          "description": "Slender: The Eight Pages game goes viral"
+        },
+        {
+          "period": "2014",
+          "phase": "Wisconsin incident",
+          "description": "Tragic stabbing brings mainstream attention and concern"
+        },
+        {
+          "period": "2014-present",
+          "phase": "Cultural fixture",
+          "description": "Embedded in internet culture, subject of academic study"
+        }
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "creation_context": "Eric Knudsen created Slenderman for a Something Awful forum contest asking users to create paranormal images by editing ordinary photographs. He posted two black-and-white images of groups of children with a tall, faceless figure in the background, along with fabricated witness testimonies.",
+      "first_appearance": "June 10, 2009, Something Awful forums"
+    },
+    "timeline": [
+      {
+        "date": "2009-06-10",
+        "event": "Slenderman created",
+        "significance": "Eric Knudsen posts first Slenderman images and story on Something Awful",
+        "source": "Something Awful forum archives"
+      },
+      {
+        "date": "2009-2010",
+        "event": "Collaborative expansion",
+        "significance": "Other users contribute stories, images, and lore",
+        "source": "Forum posts, early creepypasta sites"
+      },
+      {
+        "date": "2009-06-20",
+        "event": "Marble Hornets begins",
+        "significance": "YouTube web series popularizes Slenderman, presents as found footage",
+        "source": "YouTube"
+      },
+      {
+        "date": "2012-06-26",
+        "event": "Slender: The Eight Pages released",
+        "significance": "Free horror game goes viral, introduces millions to Slenderman",
+        "source": "Game release"
+      },
+      {
+        "date": "2014-05-31",
+        "event": "Wisconsin stabbing incident",
+        "significance": "Two 12-year-old girls stab classmate 19 times to 'please Slenderman'; victim survives",
+        "source": "News reports, court records"
+      },
+      {
+        "date": "2018",
+        "event": "Documentary and film releases",
+        "significance": "HBO documentary 'Beware the Slenderman'; feature film 'Slender Man'",
+        "source": "Media releases"
+      }
+    ],
+    "original_posts": {
+      "creator": "Victor Surge (Eric Knudsen)",
+      "date": "June 10, 2009",
+      "content": "Posted two edited photographs with accompanying text suggesting a mysterious entity that stalks and abducts children",
+      "significance": "Documented creation of modern mythology in real-time"
+    }
+  },
+
+  "incidents": {
+    "wisconsin_stabbing": {
+      "date": "2014-05-31",
+      "location": "Waukesha, Wisconsin, USA",
+      "perpetrators": "Two 12-year-old girls (Morgan Geyser and Anissa Weier)",
+      "victim": "12-year-old classmate (survived)",
+      "details": "The two girls lured their friend into woods and stabbed her 19 times, claiming they did it to become 'proxies' of Slenderman and prove his existence",
+      "outcome": "Victim survived; perpetrators convicted and committed to mental health facilities",
+      "significance": "Demonstrated real-world harm from fiction-to-belief transformation; raised questions about internet influence on children",
+      "sources": [
+        "Court records",
+        "News reports",
+        "HBO documentary 'Beware the Slenderman' (2016)"
+      ]
+    },
+    "other_incidents": [
+      {
+        "date": "2014-09",
+        "event": "Ohio mother attack",
+        "description": "Ohio woman attacked her mother while wearing white mask, claiming Slenderman made her do it",
+        "outcome": "Mental health evaluation"
+      },
+      {
+        "date": "2014-09",
+        "event": "Florida fire incident",
+        "description": "Florida teen set house on fire, claimed Slenderman ordered it",
+        "outcome": "Arrested, psychological evaluation"
+      }
+    ]
+  },
+
+  "theories": {
+    "academic": [
+      {
+        "name": "Modern mythology creation",
+        "description": "Slenderman demonstrates how new myths can be created and disseminated in the digital age",
+        "proponents": ["Folklorists", "media scholars"],
+        "evidence_cited": ["Documented origin", "Rapid cultural spread", "Evolution from fiction to belief"]
+      },
+      {
+        "name": "Fiction-to-belief phenomenon",
+        "description": "Some individuals, especially youth, develop genuine belief in fictional entities through immersion and lack of critical context",
+        "proponents": ["Psychologists"],
+        "evidence_cited": ["Wisconsin incident", "Other attacks", "Online communities treating Slenderman as real"]
+      },
+      {
+        "name": "Internet-age folklore",
+        "description": "Demonstrates how folklore operates in digital spaces, with collaborative creation and rapid evolution",
+        "proponents": ["Folklorists"],
+        "evidence_cited": ["Collaborative creation", "Viral spread", "Cultural embeddedness"]
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Susceptibility factors",
+        "description": "Certain individuals (especially young or mentally ill) may be more susceptible to fiction-belief conflation",
+        "proponents": ["Clinical psychologists"],
+        "evidence_cited": ["Wisconsin attackers had mental health issues", "Age factor in incidents"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "internet_culture": {
+      "creepypasta": "Slenderman is the most famous creepypasta character, spawning an entire genre",
+      "memes": "Subject of countless memes, parodies, and references",
+      "communities": "Dedicated fan communities, ARGs (alternate reality games), role-playing"
+    },
+    "popular_culture": {
+      "web_series": [
+        "Marble Hornets (2009-2014) - most famous Slenderman series",
+        "EverymanHYBRID",
+        "TribeTwelve",
+        "DarkHarvest00"
+      ],
+      "games": [
+        "Slender: The Eight Pages (2012) - viral horror game",
+        "Slender: The Arrival (2013)",
+        "Numerous fan games and mods"
+      ],
+      "film_tv": [
+        "Beware the Slenderman (2016) - HBO documentary",
+        "Slender Man (2018) - feature film"
+      ],
+      "other": [
+        "Fan art, cosplay",
+        "YouTube content (millions of videos)",
+        "Merchandise"
+      ]
+    },
+    "academic_study": {
+      "folklore": "Case study in digital folklore and mythology creation",
+      "psychology": "Example of fiction-belief conflation and internet influence",
+      "media_studies": "Viral phenomenon and collaborative storytelling",
+      "sociology": "Moral panic, media influence on youth"
+    }
+  },
+
+  "research": {
+    "scholars": [
+      {
+        "name": "Dr. Andrew Peck",
+        "contribution": "Research on Slenderman as modern folklore",
+        "period": "2010s"
+      },
+      {
+        "name": "Trevor J. Blank",
+        "contribution": "Study of internet folklore and Slenderman phenomenon",
+        "period": "2010s"
+      }
+    ],
+    "focus_areas": [
+      "Digital folklore creation and transmission",
+      "Fiction-to-belief transformation",
+      "Moral panic and media influence",
+      "Youth susceptibility to internet content",
+      "Collaborative storytelling in digital age"
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "knudsen-2009",
+      "type": "forum post",
+      "title": "Original Slenderman creation posts",
+      "authors": ["Eric Knudsen (Victor Surge)"],
+      "publication": "Something Awful forums",
+      "date": "2009-06-10"
+    },
+    {
+      "id": "chess-newsom-2015",
+      "type": "book",
+      "title": "Slender Man is Coming: Creepypasta and Contemporary Legends on the Internet",
+      "authors": ["Shira Chess", "Eric Newsom"],
+      "publication": "University Press of Colorado",
+      "date": "2015",
+      "isbn": "978-1607324140"
+    },
+    {
+      "id": "hbo-documentary",
+      "type": "documentary",
+      "title": "Beware the Slenderman",
+      "directors": ["Irene Taylor Brodsky"],
+      "publication": "HBO",
+      "date": "2016"
+    },
+    {
+      "id": "blank-2015",
+      "type": "article",
+      "title": "Faux Your Entertainment: Amazon.com Product Reviews as a Locus of Digital Performance",
+      "authors": ["Trevor J. Blank"],
+      "publication": "Journal of American Folklore",
+      "date": "2015"
+    }
+  ]
+}
