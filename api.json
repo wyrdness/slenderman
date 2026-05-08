@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/slenderman",
     "maintainers": [
       {
@@ -16,111 +16,272 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "slenderman",
-    "name": "Slenderman",
-    "aliases": [],
-    "category": "|_BROADER_CATEGORY_OF_DIGITALLY-NATIVE_LEGENDS_|",
-    "subcategory": "Creepypasta",
+    "name": "Slender Man",
+    "aliases": [
+      { "name": "Slenderman", "region": "Common single-word spelling" },
+      { "name": "The Operator", "region": "Marble Hornets continuity" },
+      { "name": "Der Großmann", "language": "German (in-fiction)", "meaning": "'The Tall Man' — fictional German backstory invented by users" }
+    ],
+    "category": "URBAN_LEGEND",
+    "subcategory": "Internet folklore / creepypasta",
     "tags": [
-      "folklore",
-      "mythology"
+      "creepypasta",
+      "internet-folklore",
+      "digital-folklore",
+      "fictional-entity",
+      "horror",
+      "stalker",
+      "tall-thin"
     ],
     "status": "documented",
     "description": {
-      "summary": "Slenderman is a fictional supernatural entity created on June 10, 2009, by Eric Knudsen (username \\\"Victor Surge\\\") for a Something Awful forum contest challenging users to create paranormal images.",
-      "full": "Slenderman is a fictional supernatural entity created on June 10, 2009, by Eric Knudsen (username \\\"Victor Surge\\\") for a Something Awful forum contest challenging users to create paranormal images. The character is depicted as an unnaturally tall, thin figure with a blank, featureless white face, wearing a black suit, with tentacle-like appendages extending from its back. According to the fiction, Slenderman stalks, abducts, and traumatizes victims (especially children), causes \\\"Slender sickness\\\" (paranoia, nightmares, nosebleeds), and can teleport. Originally collaborative internet fiction (creepypasta), the character went viral through web series like *Marble Hornets* (2009), video games like *Slender: The Eight Pages* (2012), and widespread sharing across the internet."
+      "summary": "Slender Man is a fictional supernatural character created by Eric Knudsen ('Victor Surge') on the Something Awful forums on June 10, 2009. He is depicted as an unnaturally tall, thin, faceless figure in a black suit and is one of the foundational figures of digital folklore.",
+      "full": "Slender Man is a fictional supernatural entity that originated as an internet creation on the Something Awful forum 'Create Paranormal Images' Photoshop contest. On June 10, 2009, user Eric Knudsen (forum name 'Victor Surge') posted two black-and-white photographs in which a tall, thin figure in a black suit had been added to images of children, with brief invented witness-account captions. The character rapidly proliferated across the internet, becoming the central figure of an early-2010s wave of collaborative horror fiction known as creepypasta. Slender Man is depicted as unnaturally tall and thin, with a featureless white face, a black suit, and tentacle-like appendages, and is associated with the stalking and abduction of children. Major fictional treatments include the Marble Hornets web series (2009–2014), the video games Slender: The Eight Pages (2012) and Slender: The Arrival (2013), the HBO documentary Beware the Slenderman (2016), and the 2018 feature film Slender Man. The character is widely studied as an example of digital folklore (e.g., Trevor J. Blank, Andrew Peck). A 2014 stabbing in Waukesha, Wisconsin, in which two 12-year-old girls attacked a classmate and cited Slender Man, generated extensive moral-panic coverage and academic analysis."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined by Eric Knudsen ('Victor Surge') on the Something Awful forum, June 10, 2009.",
+      "meaning": "Descriptive — a 'slender' (tall and thin) figure in human form.",
+      "first_use": "June 10, 2009, in the Something Awful 'Create Paranormal Images' thread."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_BROADER_CATEGORY_OF_DIGITALLY-NATIVE_LEGENDS_|",
-      "type": "Creepypasta",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "URBAN_LEGEND",
+      "type": "Internet-native folklore",
+      "subtype": "Creepypasta entity",
+      "variant": "Anglophone digital folklore"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "creepypasta", "name": "Creepypasta", "relationship": "superset", "description": "Genre of internet horror writing within which Slender Man is the central figure" },
+      { "id": "smile-dog", "name": "Smile Dog", "relationship": "similar", "description": "Roughly contemporary creepypasta entity also originating in image-board communities" },
+      { "id": "the-rake", "name": "The Rake", "relationship": "similar", "description": "Another foundational creepypasta entity from the same era" },
+      { "id": "enderman", "name": "Enderman (Minecraft)", "relationship": "related", "description": "2011 Minecraft mob inspired in part by Slender Man" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 2.4, "max": 4.5, "unit": "meters", "confidence": "low" },
+      "coloration": ["black suit", "white featureless face", "pale hands"],
+      "features": [
+        { "feature": "Featureless face", "description": "A blank, smooth, white head with no eyes, nose, or mouth", "frequency": "always" },
+        { "feature": "Unnaturally tall and thin", "description": "Often depicted at 2.4–4.5 m (8–15 ft) tall with elongated, spindly proportions", "frequency": "always" },
+        { "feature": "Black suit", "description": "Almost always depicted in a black suit and tie", "frequency": "always" },
+        { "feature": "Tentacle-like appendages", "description": "Black tentacles or extra limbs extending from the back, depicted in many fan works", "frequency": "common" }
+      ],
+      "morphology": "Humanoid in basic form but exaggerated to the point of impossibility — extreme height, elongated limbs, and a blank face make him uncanny rather than literal."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Teleportation", "description": "Frequently appears and disappears without warning in stories and games", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Mind influence ('Slender sickness')", "description": "Said to cause paranoia, nightmares, memory loss, nosebleeds, and coughing in those who become aware of him", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Stalking and abduction", "description": "Described as silently stalking, abducting, and traumatising victims, especially children", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Proxies", "description": "In Marble Hornets and related fiction, controls human 'proxies' who do his bidding", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["Forests", "Suburban edges", "Abandoned buildings", "Anywhere depicted in story"],
+      "diet": "Not specified; primarily framed as a predator that abducts rather than literally feeds",
+      "patterns": [
+        "Particularly associated with children",
+        "Visible in the background of photographs (the originating Knudsen images)",
+        "Often appears to those who research him too deeply (in-fiction)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "As an internet-native fictional entity, Slender Man's 'distribution' is global wherever the anglophone internet reaches. The originating community is North American, but the character has become a globally recognised piece of digital folklore.",
+      "continents": ["North America", "Europe", "Australia", "Asia", "South America", "Africa"],
+      "countries": ["United States", "Canada", "United Kingdom", "Worldwide via internet"],
+      "regions": [
+        "Internet (Something Awful, 4chan, YouTube, ARG communities)",
+        "Anglophone fan-fiction communities"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Something Awful (creation site)",
+        "location": {
+          "description": "Something Awful forum 'Create Paranormal Images' thread",
+          "country": "United States",
+          "region": "Internet"
+        },
+        "peak_period": "2009",
+        "notes": "Originating site of Eric Knudsen's June 10, 2009 posts."
+      },
+      {
+        "name": "Waukesha, Wisconsin (2014 stabbing)",
+        "location": {
+          "description": "David's Park area, Waukesha, Wisconsin",
+          "country": "United States",
+          "region": "Wisconsin",
+          "coordinates": { "latitude": 43.0117, "longitude": -88.2315 }
+        },
+        "peak_period": "2014",
+        "notes": "Site of the May 31, 2014 stabbing of a 12-year-old by two classmates who cited Slender Man."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "2009-06-10",
+        "circa": false,
+        "source": "Eric Knudsen ('Victor Surge'), Something Awful 'Create Paranormal Images' thread"
+      },
+      "peak_activity_periods": [
+        { "period": "2009–2012", "description": "Initial creation and viral spread; Marble Hornets and Slender: The Eight Pages" },
+        { "period": "2014", "description": "Waukesha stabbing and resulting moral panic" },
+        { "period": "2016–2018", "description": "HBO documentary Beware the Slenderman (2016) and feature film Slender Man (2018)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Slender Man is unambiguously a 21st-century internet creation; his 'lore' was assembled in real time by online communities through collaborative photo manipulation, fictional first-person accounts, and ARG-style web series.",
+      "earliest_accounts": "June 10, 2009 Photoshop-contest posts by Eric Knudsen.",
+      "folklore_connections": "Treated by folklorists (Trevor J. Blank, Andrew Peck, Lynne S. McNeill) as a paradigm case of 'digital folklore' or 'networked folklore'."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "2009-06-10", "event": "Eric Knudsen ('Victor Surge') posts the first two Slender Man images on Something Awful's 'Create Paranormal Images' thread", "significance": "Creation of the character", "source": "Something Awful forum archives; Wikipedia, 'Slender Man'" },
+      { "date": "2009-06-20", "event": "The Marble Hornets web series begins on YouTube, expanding the character into video", "significance": "Establishes the most influential fictional treatment", "source": "Marble Hornets YouTube channel" },
+      { "date": "2012-06-26", "event": "Slender: The Eight Pages is released by Mark J. Hadley", "significance": "Brings Slender Man into mainstream gaming", "source": "Wikipedia, 'Slender: The Eight Pages'" },
+      { "date": "2014-05-31", "event": "Two 12-year-old girls (Morgan Geyser and Anissa Weier) stab a classmate 19 times in Waukesha, Wisconsin, and later cite Slender Man as motivation", "significance": "The 'Slender Man stabbing'; becomes a focal moral-panic event", "source": "Waukesha County Court records; HBO Beware the Slenderman (2016)" },
+      { "date": "2016-01-23", "event": "Beware the Slenderman, directed by Irene Taylor Brodsky, premieres at the Sundance Film Festival", "significance": "HBO documentary on the Waukesha case", "source": "HBO; Sundance 2016 records" },
+      { "date": "2018-08-10", "event": "Sony Pictures' Slender Man film opens in U.S. theaters", "significance": "First major-studio feature film treatment", "source": "Sony Pictures release records" }
+    ],
+    "modern_era": "Slender Man is now an established figure of digital folklore studied alongside earlier urban legends. The Waukesha case, in which both Geyser and Weier were tried as adults and committed to Wisconsin mental-health institutions, prompted ongoing debates about juvenile justice, mental illness, and the influence of internet-mediated belief on vulnerable young people."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "2009-06-10 (creation date)", "latest": "present" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
-    "photographic": [],
-    "video": [],
+    "photographic": [
+      {
+        "id": "slenderman-evidence-knudsen-images",
+        "type": "digital photograph (composite)",
+        "name": "Original Knudsen Slender Man photographs (June 10, 2009)",
+        "date": "2009-06-10",
+        "description": "Two black-and-white photographs digitally composited by Eric Knudsen showing children with a tall, thin figure in a black suit added in the background.",
+        "status": "verified",
+        "analysis": "Acknowledged fiction by their creator. Foundational images of the character.",
+        "source": "Something Awful forum archives"
+      }
+    ],
+    "video": [
+      {
+        "id": "slenderman-evidence-marble-hornets",
+        "type": "web series",
+        "name": "Marble Hornets",
+        "date": "2009-2014",
+        "description": "Found-footage YouTube web series by Troy Wagner, Joseph DeLage, and Tim Sutton featuring the character as 'The Operator'.",
+        "status": "verified",
+        "analysis": "Acknowledged fiction. Most influential video treatment of Slender Man.",
+        "source": "Marble Hornets YouTube channel"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "slenderman-evidence-beware-doc",
+        "type": "documentary",
+        "name": "Beware the Slenderman (HBO, 2016)",
+        "date": "2016",
+        "description": "Documentary by Irene Taylor Brodsky examining the 2014 Waukesha stabbing and the role of internet folklore.",
+        "status": "verified",
+        "analysis": "Standard documentary reference for the Waukesha case.",
+        "source": "HBO Films"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Digital folklore",
+        "description": "Folklorists analyse Slender Man as an exemplar of internet-mediated folklore: collectively authored, performance-driven, and varying across communities — structurally similar to oral folklore, but using digital media.",
+        "proponents": ["Trevor J. Blank", "Andrew Peck", "Lynne S. McNeill"],
+        "evidence_cited": ["Collaborative authorship history on Something Awful, 4chan, and YouTube", "Variation in lore across communities (ARG continuities)"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Acknowledged fiction",
+        "description": "The character is an acknowledged fictional creation by a known author; no independent evidence of any corresponding real entity exists.",
+        "proponents": ["Eric Knudsen (creator)", "Wikipedia / standard reference treatment"],
+        "evidence_cited": ["Knudsen's authorship of the original images", "Documented timeline of character development"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Anglophone internet creepypasta tradition",
+        "Forum and ARG-driven collaborative horror"
+      ],
+      "stories": [
+        "Original Knudsen Photoshop posts (2009)",
+        "Marble Hornets (2009–2014)",
+        "Waukesha stabbing court testimony (2014)"
+      ],
+      "beliefs": "Treated by adult communities as fiction; the Waukesha case demonstrates how some young people can come to treat fictional entities as real, with serious consequences."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Slenderman: Online Obsession, Mental Illness, and the Violent Crime of Two Midwestern Girls — Kathleen Hale (2022)"
+      ],
+      "film_tv": [
+        "Marble Hornets (web series, 2009–2014)",
+        "Always Watching: A Marble Hornets Story (2015)",
+        "Beware the Slenderman (HBO, 2016)",
+        "Slender Man (Sony, 2018)"
+      ],
+      "games": [
+        "Slender: The Eight Pages (Mark J. Hadley, 2012)",
+        "Slender: The Arrival (Blue Isle Studios, 2013)",
+        "Minecraft Enderman (Mojang, 2011) — design inspiration"
+      ],
+      "music": [],
+      "other": [
+        "Subject of extensive academic writing on digital folklore",
+        "Costuming and convention culture"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Trevor J. Blank", "affiliation": "SUNY Potsdam (folklore)", "contribution": "Foundational work on internet folklore and Slender Man as digital legend", "period": "2010s–present" },
+      { "name": "Andrew Peck", "affiliation": "Folklore studies", "contribution": "Analysis of Slender Man as 'networked' folklore in the Journal of American Folklore", "period": "2015" },
+      { "name": "Lynne S. McNeill", "affiliation": "Utah State University (folklore)", "contribution": "Public scholarship on the Waukesha case and the social life of internet legends", "period": "2010s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Continued academic and journalistic work on the Waukesha case (Geyser and Weier), on digital folklore methodology, and on the moral-panic dynamics of internet legends."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-slenderman", "type": "website", "title": "Slender Man", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Slender_Man", "accessed": "2026-05-07" },
+    { "id": "peck-2015", "type": "paper", "title": "Tall, Dark, and Loathsome: The Emergence of a Legend Cycle in the Digital Age", "authors": ["Andrew Peck"], "publication": "Journal of American Folklore", "date": "2015", "doi": "10.5406/jamerfolk.128.509.0333" },
+    { "id": "beware-slenderman-2016", "type": "documentary", "title": "Beware the Slenderman", "authors": ["Irene Taylor Brodsky"], "publication": "HBO Films", "date": "2016" }
+  ]
 }
